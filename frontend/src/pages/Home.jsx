@@ -9,6 +9,9 @@ import worldImg from "../assets/images/world.png";
 import Subtitle from "./../shared/Subtitle"
 
 import SearchBar from '../shared/SearchBar';
+import ServiceList from '../services/ServiceList';
+import FeaturedTourList from '../components/Featured-tours/FeaturedTourList';
+
 const Home = () => {
   return <>
   {/* ---------- Hero Section start ----------- */}
@@ -18,7 +21,7 @@ const Home = () => {
       <Col lg = '6' >
         <div className="hero__content">
           <div className="hero__subtitle d-flex align-items-center">
-             <Subtitle Subtitle={'Know Before You Go'} />
+             <Subtitle subtitle={'Know Before You Go'} />
              <img src={worldImg} alt="" />
           </div>
           <h1>
@@ -52,6 +55,7 @@ const Home = () => {
   </section>
   {/* ---------- Hero Section end ----------- */}
 
+  {/* ----------Services Section start ----------- */}
 <section>
   <Container>
     <Row>
@@ -59,9 +63,25 @@ const Home = () => {
         <h5 className='services__subtitle'>What we serve</h5>
         <h2 className='services__title'>We offer our best services</h2>
       </Col>
+      <ServiceList />
     </Row>
   </Container>
 </section>
+  {/* ----------Services Section end ----------- */}
+
+  {/* ----------Featured Tour Section start ----------- */}
+  <section>
+    <Container>
+      <Row>
+        <Col lg="12" className='mb-5'>
+          <Subtitle subtitle={"Explore"} />
+          <h2 className='featured__tour-title'>Our featured tours</h2>
+        </Col>
+        <FeaturedTourList />
+      </Row>
+    </Container>
+  </section>
+  {/* ----------Featured Tour Section end ----------- */}
   </>
 }
 
