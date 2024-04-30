@@ -1,5 +1,5 @@
 
-import Tour from '..models/Tour.js'
+import Tour from '../models/Tour.js';
 
 
 //create new tour
