@@ -33,8 +33,8 @@ const Home = () => {
             <span className='highlight'> memories</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Dolores voluptates animi alias similique sit vel nobis eius id molestiae modi!
+          Embark on unforgettable journeys and uncover the beauty of new horizons. 
+          Travel far, live fully, and let every adventure leave a lasting memory.
           </p>
         </div>
       </Col>
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </Col>
       <Col lg = "2">
-        <div className='hero__img-box mt-4'>
+        <div className='hero__img-box hero__video-box mt-4'>
           <video src={heroVideo} alt="" controls />
         </div>
       </Col>
@@ -97,7 +97,8 @@ const Home = () => {
             <Subtitle subtitle={"Experience"} />
             <h2>With our all experience <br /> we will serve you</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>Autem eligendi sapiente voluptates sunt illum omnis!
+            With our extensive expertise, we are dedicated to serving you the best travel experience.
+             <br/>Trust our experience to craft your perfect journey, every step of the way.
             </p>
           </div>
 

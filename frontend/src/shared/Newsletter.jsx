@@ -12,15 +12,18 @@ const Newsletter = () => {
         <Row>
             <Col lg = "6">
                 <div className="newsletter__content">
-                    <h2>Subscribe to get useful travelling information.</h2>
+                    <h2>Please review our travelling places.</h2>
 
-                    <div className="newsletter__input">
+                    {/* <div className="newsletter__input">
                         <input type="email" placeholder='Enter your email' />
                         <button className="btn newsletter__btn">Subscribe</button>
-                    </div>
+                    </div> */}
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptate, accusantium?
+                    <p>Our Traveling Places offers a diverse selection of destinations, 
+                        catering to every wanderlust's dream. From exotic beaches to historic
+                         landmarks, each location promises an unforgettable adventure. With
+                          detailed insights and seamless booking options, it's the ultimate 
+                          companion for every traveler.
                     </p>
                 </div>
             </Col>

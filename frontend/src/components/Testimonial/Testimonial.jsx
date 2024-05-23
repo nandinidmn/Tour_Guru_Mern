@@ -37,10 +37,11 @@ const Testimonial = () => {
     }
   return <Slider {...settings}>
     <div className="testimonial py-4 px-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Libero ullam reprehenderit similique iusto rerum temporibus exercitationem architecto, 
-            repellendus veritatis ratione, qui doloribus, aliquid cupiditate. 
-            Ad modi voluptatum sint rem ducimus.
+        <p>The moment I began planning my trip, the platform provided
+             seamless customization options, allowing me to tailor every aspect of my 
+             journey. The real-time weather updates kept me well-prepared, and the 
+             knowledgeable tour guides ensured that I made the most of every destination. 
+             
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
@@ -52,10 +53,10 @@ const Testimonial = () => {
     </div>
 
     <div className="testimonial py-4 px-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Libero ullam reprehenderit similique iusto rerum temporibus exercitationem architecto, 
-            repellendus veritatis ratione, qui doloribus, aliquid cupiditate. 
-            Ad modi voluptatum sint rem ducimus.
+        <p>Booking through your website was a breeze, and the personalized recommendations 
+            made choosing my itinerary effortless. The attention to detail and level of 
+            support exceeded my expectations, 
+            leaving me with nothing but fond memories of my travels.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
@@ -67,10 +68,10 @@ const Testimonial = () => {
     </div>
 
     <div className="testimonial py-4 px-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Libero ullam reprehenderit similique iusto rerum temporibus exercitationem architecto, 
-            repellendus veritatis ratione, qui doloribus, aliquid cupiditate. 
-            Ad modi voluptatum sint rem ducimus.
+        <p>Your website's user-friendly interface made planning my trip a pleasure, 
+            and the seamless booking process gave me confidence in my travel arrangements.
+             With your expert guidance and comprehensive services, 
+            I embarked on a journey filled with unforgettable moments and newfound adventures.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
@@ -82,10 +83,11 @@ const Testimonial = () => {
     </div>
     
     <div className="testimonial py-4 px-3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Libero ullam reprehenderit similique iusto rerum temporibus exercitationem architecto, 
-            repellendus veritatis ratione, qui doloribus, aliquid cupiditate. 
-            Ad modi voluptatum sint rem ducimus.
+        <p>From start to finish, your travel website exceeded my expectations. 
+            The ease of navigation, coupled with personalized assistance, made 
+            planning my trip a delight. Thanks to your meticulous attention to 
+            detail and top-notch service, I enjoyed a seamless and unforgettable 
+            travel experience.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava03} className='w-25 h-25 rounded-2' alt="" />

@@ -11,10 +11,10 @@ const quick__links = [
     path: '/home',
     display: 'Home'
   },
-  {
-    path: '/about',
-    display: 'About'
-  },
+  // {
+  //   path: '/about',
+  //   display: 'About'
+  // },
   {
     path: '/tours',
     display: 'Tours'
@@ -48,8 +48,7 @@ const Footer = () => {
           <Col lg = "3">
             <div className="logo">
               <img src={logo} alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consequatur, ipsa!</p>
+              <p>Unlock the wisdom of the travel guru and elevate your adventures with expert advice.</p>
 
                 <div className="social__links d-flex align-items-center gap-4">
                   <span>
@@ -108,7 +107,7 @@ const Footer = () => {
                     </span>
                     Address:
                   </h6>
-                  <p className='mb-0'>lorem ipsum, India</p>
+                  <p className='mb-0'>Punjab, India</p>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -135,7 +134,7 @@ const Footer = () => {
           </Col>
 
           <Col lg='12' className='text-center pt-5'>
-            <p className='copyright'>Copyright {year}, designed and developed by lorem ispsum, all rights reserved. </p>
+            <p className='copyright'>Copyright {year}, designed and developed by Alpha Team. </p>
           </Col>
         </Row>
       </Container>
